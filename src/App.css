@@ -1,0 +1,29 @@
+.efecto
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 133vh;
+  overflow: hidden;
+  filter: blur(200px);
+}
+
+.decoracion
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detalle
+{
+  position: relative;
+  background-color: orange;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}

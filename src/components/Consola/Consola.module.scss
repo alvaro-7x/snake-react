@@ -1,0 +1,52 @@
+@import '../medidas';
+
+.consola
+{
+  background: linear-gradient(to bottom, #eeebeb, #b1b0b0);
+  border-radius:1.7em;
+  margin:1em auto;
+  position: relative;
+  width: 514px;
+  color: white;
+  padding: 2em;
+  box-shadow: 0 2px 1px -1px #0003,0 1px 1px #00000024,0 1px 3px #0000001f;
+  
+  .superiorTexto
+  {
+    width: $myWidth;
+    height:50px;
+    background-color: #171717;
+  }
+
+  .superior
+  {
+    width: $myWidth;
+    height: $myHeight;
+    background-color: #171717;
+  }
+
+  .inferior
+  {
+    width: 450px;
+    border:1px solid rgba(255, 255, 255, 0.7);
+    height: 150px;
+    margin-top:10px;
+    border-radius: 0 0 1.7em 1.7em;
+    box-shadow: inset 0px 0px 10px 3px rgba(255, 255, 255, 0.7);
+  }
+
+  .inferiorDetalles
+  {
+    width: 100%;
+    height: 50px;
+    
+    .powered
+    {
+      color: #171717;
+      width: 100%;
+      text-align: center;
+      padding: 0.5em;
+    }
+  }
+}
+

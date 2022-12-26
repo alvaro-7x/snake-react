@@ -1,0 +1,10 @@
+version: '3'
+services:
+  snake-react:
+    container_name: snake-react
+    hostname: snake-react
+    build:
+     context: .
+     dockerfile: Dockerfile
+    ports:
+      - 8081:8081
